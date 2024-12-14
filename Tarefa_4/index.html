@@ -1,0 +1,136 @@
+<!--
+Baseado em um exemplo do Bootstrap versão 4 (https://getbootstrap.com.br/docs/4.1/examples/ ), crie sua
+própria página usando um dos templates abaixo. Adicione o seu texto, imagens e conteúdo personalizado.
+
+    -Album - Template de página simples para galerias de fotos, portfólios, etc.
+    -Blog - Blog no estilo de revista com cabeçalho, navegação e conteúdo destacado.
+    -Carousel - Customize a barra de navegação o e carousel, então, adicione alguns novos componentes.
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais amazônicos</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <img src="imagens/logo.jpg" alt="Logo" class="logo">
+    </div>
+    <div class="centralizado">
+        <h1>Galeria de Fotos</h1>
+        <h3>
+            Explore a galeria de fotos dos animais amazônicos e descubra a biodiversidade incrível da <br>
+            maior floresta tropical do mundo. Cada imagem captura a beleza de espécies únicas como <br>
+            jaguatiricas, tucanos e tartarugas, destacando a importância de preservar esses habitats. <br>
+            Visitar a galeria é se conectar com a missão de conservação e ajudar a proteger esses <br>
+            tesouros naturais. Embarque nesta jornada visual e contribua para a conscientização <br>
+            sobre a vida selvagem da Amazônia. 
+        </h3>
+    </div>
+
+    <!-- CARD -->
+    <div class="cards-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/Tucano.jpg" alt="Tucano" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Tucano</h1> 
+                <p>Tucanos são aves tropicais da América Central e do Sul, reconhecíveis por seus grandes bicos 
+                    coloridos. Alimentam-se principalmente de frutas e ajudam na dispersão de sementes, 
+                    contribuindo para a regeneração das florestas. Vivem em pequenos bandos e são importantes 
+                    para a biodiversidade.
+                </p> 
+              </div>
+            </div>
+        </div>
+        <!-- JAGUATIRICA -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/jaguatirica.jpg" alt="Jaguatirica" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Jaguatirica</h1> 
+                <p> A jaguatirica é um felino ágil e solitário encontrado nas Américas, principalmente em 
+                    florestas tropicais e subtropicais. Ela possui uma pelagem marrom-amarelada com manchas
+                    negras. Caça pequenos mamíferos, aves e répteis, sendo uma excelente nadadora e escaladora.
+                    A jaguatirica desempenha um papel importante no equilíbrio ecológico dos habitats que ocupa.
+                </p> 
+              </div>
+            </div>
+        </div>
+        <!-- JABUTI -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/jabuti.jpg" alt="Jabuti" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Jabuti</h1> 
+                <p>
+                    O Jabuti da Amazônia (Chelonoidis denticulata) é um réptil herbívoro com um casco abobadado, encontrado nas florestas 
+                    tropicais da América do Sul. Ele ajuda na dispersão de sementes, mas enfrenta ameaças de perda de habitat e captura 
+                    ilegal. A conservação é crucial para sua sobrevivência.
+                </p> 
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- TATU -->
+    <div class="cards-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/tatu.jpg" alt="Tucano" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Tatu</h1> 
+                <p>
+                    O Tatu é um pequeno mamífero coberto por uma carapaça dura. Ele se alimenta de insetos, raízes e frutas. É conhecido por
+                     cavar tocas no solo, onde se refugia. O tatu é noturno e ajuda a controlar populações de insetos na natureza.
+                </p> 
+              </div>
+            </div>
+        </div>
+        <!-- TAMANDUÁ -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/tamandua.png" alt="Jaguatirica" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Tamanduá </h1> 
+                <p> 
+                    O Tamanduá-bandeira é um mamífero com uma longa língua e focinho para se alimentar de formigas e cupins. Ele possui uma 
+                    cauda peluda e garras fortes para abrir ninhos de insetos. É pacífico, solitário e controla populações de insetos no ecossistema.
+                </p> 
+              </div>
+            </div>
+        </div>
+        <!-- MACACO PREGO -->
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="imagens/macaco.jpg" alt="Tartaruga" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Macaco</h1> 
+                <p> O Macaco-prego é um primata inteligente das florestas tropicais da América do Sul. Ele usa ferramentas, tem uma dieta variada e vive 
+                    em grupos sociais complexos. Seu papel é crucial na dispersão de sementes e na manutenção da biodiversidade da floresta.
+                </p> 
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Rodapé</p>
+    </div>
+</body>
+</html>
